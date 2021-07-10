@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%; // 62.5 == 10 px
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto/9; /* Bug de ie8 */
+}

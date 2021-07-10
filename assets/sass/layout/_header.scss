@@ -1,0 +1,46 @@
+.header{
+    
+    overflow: hidden;
+    
+}
+
+.header__item{
+    box-sizing: border-box;
+    // height: 300px;
+    // width: 300px;
+    // border: 1px solid gray;
+    float: left;
+    
+}
+
+.header__item-box1{
+    background-color:red;
+    width:70%;
+    background-image: url(../img/img-1.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.header__item-box2{
+    // background-color:yellow;
+    width:30%;
+    padding-left: 10%;
+    
+}
+
+.text__font--size-XXL{
+    font-size:$xx-large
+    
+}
+
+.text__font--size-L{
+    font-size:$large
+}
+
+.text__font{
+    font-family: $mono;
+    text-align: left;
+}
+
+// --------------

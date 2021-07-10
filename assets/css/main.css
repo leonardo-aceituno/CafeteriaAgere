@@ -1,0 +1,240 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto/9;
+  /* Bug de ie8 */ }
+
+.nav__containter {
+  position: relative;
+  padding: 5px;
+  overflow: hidden;
+  margin: 2rem 5rem; }
+
+.nav__position-left {
+  float: left; }
+
+.nav__position-right {
+  float: right; }
+
+.nav__logo {
+  width: 30px; }
+
+.nav__list {
+  display: flex;
+  align-items: center; }
+
+.nav__item {
+  display: inline-block;
+  padding-left: 4rem; }
+
+.nav__text {
+  font-family: "PT Mono", monospace;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #A2A2A2; }
+  .nav__text:hover {
+    border-bottom: 0.3rem solid #E4572E;
+    padding-bottom: 0.5rem; }
+  .nav__text:focus {
+    border-bottom: 0.3rem solid #E4572E;
+    padding-bottom: 0.5rem; }
+
+.header {
+  overflow: hidden; }
+
+.header__item {
+  box-sizing: border-box;
+  float: left; }
+
+.header__item-box1 {
+  background-color: red;
+  width: 70%;
+  background-image: url(../img/img-1.png);
+  background-size: cover;
+  height: 100vh; }
+
+.header__item-box2 {
+  width: 30%;
+  padding-left: 10%; }
+
+.text__font--size-XXL {
+  font-size: 4rem; }
+
+.text__font--size-L {
+  font-size: 1.8rem; }
+
+.text__font {
+  font-family: "PT Mono", monospace;
+  text-align: left; }
+
+.footer {
+  position: relative;
+  bottom: 150px; }
+
+.footer__container {
+  overflow: hidden; }
+
+.footer__container--left {
+  box-sizing: border-box;
+  width: 70%;
+  float: left; }
+
+.footer__container--right {
+  box-sizing: border-box;
+  width: 30%;
+  float: right; }
+
+.footer__box--1 {
+  box-sizing: border-box;
+  position: relative;
+  width: 35%;
+  float: left;
+  padding: 20px 50px 0px 30px; }
+
+.footer__font {
+  font-family: "PT Mono", monospace; }
+
+.footer__font--size-L {
+  font-size: 3rem; }
+
+.footer__font--size-M {
+  font-size: 1.6rem; }
+
+.footer__font--roboto {
+  font-family: "Roboto", sans-serif; }
+
+.footer__box--2 {
+  position: relative;
+  width: 35%;
+  float: left; }
+
+.footer__box--3 {
+  position: relative;
+  width: 30%;
+  float: left; }
+
+.rectangle {
+  position: absolute;
+  width: 400px;
+  height: 170px;
+  background-color: dodgerblue;
+  z-index: -2;
+  top: 0px;
+  left: 10%; }
+
+.box-2__img {
+  position: relative;
+  top: 30px;
+  width: 350px;
+  height: 160px; }
+
+.footer__box--4 {
+  position: absolute;
+  left: 65%; }
+
+.box-4__img {
+  width: 100px;
+  height: 120px; }
+
+.section1 {
+  box-sizing: border-box;
+  background-color: aqua;
+  overflow: hidden;
+  position: relative;
+  top: -140px;
+  z-index: 2;
+  width: 50%;
+  left: 34%;
+  border: 1px solid #FFF; }
+
+.section__item1 {
+  box-sizing: border-box;
+  background-color: #FFF;
+  float: left;
+  position: relative; }
+
+.section__item-box11 {
+  background-color: #FFF;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+
+.section__text {
+  float: left; }
+
+.section1__font--mono {
+  font-family: "PT Mono", monospace;
+  text-align: left; }
+
+.section1__font--roboto {
+  font-family: "Roboto", sans-serif;
+  text-align: left; }
+
+.section1__font--size-xL {
+  font-size: 3rem; }
+
+.section1__font--size-M {
+  font-size: 1.6rem; }
+
+.cuadrado {
+  width: 20%; }
+
+.cuadrado__amarillo {
+  background-color: #F1DD7B; }
+
+.cuadrado__naranjo {
+  background-color: #E4572E;
+  position: absolute;
+  bottom: -100px;
+  left: 68%;
+  width: 135px;
+  height: 135px;
+  z-index: 2; }
+
+.icon {
+  color: #FFF;
+  padding: 30% 40%; }
+
+.section__item-box22 {
+  background-color: blue;
+  width: 30%; }
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "PT Mono", monospace;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 2rem;
+  width: 14.6rem;
+  height: 3.3rem;
+  box-sizing: border-box; }
+
+.button__login {
+  background-color: #FFF;
+  color: #000000;
+  border: 0.1rem solid #454545; }
+  .button__login:hover {
+    background-color: #FFF;
+    color: #A2A2A2;
+    border: 0.1rem solid #A2A2A2; }
+
+.button_sign {
+  background-color: #4CA866;
+  color: white;
+  border: 0.1rem solid #4CA866; }
+  .button_sign:hover {
+    background-color: #9DCFAB;
+    color: #454545;
+    border: 0.1rem solid #9DCFAB; }
+
+/*# sourceMappingURL=main.css.map */
